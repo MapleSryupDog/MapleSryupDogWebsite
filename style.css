@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    background-color: blueviolet;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  .gallery{
+    color: #777;
+    padding: 40px;
+    width: 50px;
+    height: 200px;
+}
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 200px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+ .myMenu{
+  float: right;
+  }
+
+  .text{
+    color: black;
+    padding: 70px 0;
+    text-align: center;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+  }
+  a{
+    color: black;
+  }
+
+ 
